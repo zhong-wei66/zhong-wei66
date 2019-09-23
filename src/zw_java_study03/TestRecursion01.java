@@ -1,7 +1,7 @@
 package zw_java_study03;
 /**
  * ตÝน้
- * @author Administrator
+ * @author zhong_wei
  *
  */
 public class TestRecursion01 {
