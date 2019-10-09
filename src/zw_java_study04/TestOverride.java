@@ -1,4 +1,7 @@
 package zw_java_study04;
+
+//import org.omg.CORBA.PUBLIC_MEMBER;
+
 /**
  * ≤‚ ‘÷ÿ–¥£®Override£©/∏≤∏«
  * @author Administrator
@@ -30,9 +33,10 @@ class Vehicle{
 }
 
 class  Horse extends Vehicle{
+	//÷ÿ–¥∑Ω∑®
 	public void run() {
 		System.out.println("¬ÌÃ§∑…—‡£¨≈‹≈‹∞°≈‹°£°£°£°£°£°£");
-		
+			
 	}
 	
 	public Person whoIsPsg() {
