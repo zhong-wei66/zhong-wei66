@@ -1,4 +1,4 @@
-package zw_java_study02;
+package zw_java_study03;
 /**
  * 这是第三章的编码题2
  * 编程求：∑1+∑2+……+∑100
