@@ -1,18 +1,32 @@
-package zw_java_study03;
+package homeWork;
 
 /**
  * 这是第三章的编码题3
  * 编写递归算法程序：一列数的规则如下: 
  * 1、1、2、3、5、8、13、21、34...... 
  * 求数列的第40位数是多少。
+ * 结果：102334155
  * @author Administrator
  *
  */
-public class WorkDay03_Code03 {
+public class Day3_Code03 {
 	//递归写法
 	public static void main(String[] args) {
 		
+		int num40=result(40);
+		System.out.println(num40);
 	}
+	
+	public static int result(int num) {
+		if (num==1||num==2) {
+			return 1;
+		}else {
+			return (result(num-1)+result(num-2));
+		}
+	}
+		
+		
+}
 	
 	
 	
@@ -44,4 +58,4 @@ public class WorkDay03_Code03 {
 	
 	*/
 
-}
+

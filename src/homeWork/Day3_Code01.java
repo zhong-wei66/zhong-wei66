@@ -1,4 +1,4 @@
-package zw_java_study03;
+package homeWork;
 
 /**
  * 这是第三章的编码题1
@@ -8,7 +8,7 @@ package zw_java_study03;
  */
 
 import java.util.Scanner;
-public class WorkDay03_Code01 {
+public class Day3_Code01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("请输入一个十进制整数：");

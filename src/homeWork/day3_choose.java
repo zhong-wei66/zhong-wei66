@@ -1,4 +1,4 @@
-package zw_java_study03;
+package homeWork;
 
 /**
  * 第三章作业
@@ -8,7 +8,7 @@ package zw_java_study03;
  *
  */
 
-public class WorkDay03 {
+public class day3_choose {
 	public static void main(String[] args) {
 		//1.分析如下Java代码，编译运行的输出结果是( )。(选择一项)
 		//预测答案为A
