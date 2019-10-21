@@ -16,14 +16,14 @@ package homeWork;
 interface Move{//电影接口
 	public abstract void move();
 }
-interface Tv{//电视剧接口
+interface Tv1{//电视剧接口
 	public abstract void tv();
 }
 interface singsong{//唱歌接口
 	public abstract void sing();
 }
 
-class Artist implements Move,Tv,singsong{//接口实现
+class Artist implements Move,Tv1,singsong{//接口实现
 	
 	//构造方法
 	public Artist(String name) {		
@@ -51,6 +51,7 @@ public class day5_code03 {
 		a.sing();
 	}
 }
+
 
 
 //
