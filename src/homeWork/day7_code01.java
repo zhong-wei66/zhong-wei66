@@ -14,6 +14,7 @@ import java.util.Scanner;
 
 public class day7_code01 {
 	public static void main(String[] args) {
+	
 		String[] arr = null;
 		arr = new String[10];
 	
@@ -21,8 +22,8 @@ public class day7_code01 {
 
 			char a = 'a';
 			char c = (char)(a+index);
-			 String s = new String(new char[]{c});
-			 arr[index] = s;		 
+			String s = new String(new char[]{c});//把char类型的数据转为string类型
+			arr[index] = s;		 
 		}
 		
 		//用户输入单词
