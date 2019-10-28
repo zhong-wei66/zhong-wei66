@@ -36,13 +36,21 @@ class Employee{
 	private String ename;
 	private double salary;
 	
+	//生成相应的构造器：alt+shift+s，然后选择：Generate Constructor using Fields
 	public Employee(int id, String ename, double salary) {
 		super();
 		this.id = id;
 		this.ename = ename;
 		this.salary = salary;
 	}
-
+	
+	//重写toString
+	@Override
+	public String toString() {
+		return "id:"+id+" name:"+ename+" 薪水："+salary;
+	}
+	
+	//生成相应的get、set方法：alt+shift+s，然后选择：Generate getters and setters to create
 	public int getId() {
 		return id;
 	}

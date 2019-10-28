@@ -15,7 +15,7 @@ public class LinkedList05<E> {
 	
 	private int size;
 	
-	public void add(int index,E element) {
+	public void add(int index,E element) {//alr+shift+r÷ÿππ
 		
 		checkRange(index);
 		
