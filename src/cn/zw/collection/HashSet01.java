@@ -1,6 +1,8 @@
 package cn.zw.collection;
 
+import java.awt.List;
 import java.util.HashMap;
+import java.util.Set;
 
 /**
  * 手工实现一个HashSet，更深刻理解HashSet底层原理
@@ -8,12 +10,12 @@ import java.util.HashMap;
  *
  */
 
-public class HashSet {
+public class HashSet01 {
 	HashMap map;
 	
 	private static final Object PRESENT = new Object();
 	
-	public HashSet(){
+	public HashSet01(){
 		map = new HashMap();
 	}
 	
@@ -38,12 +40,11 @@ public class HashSet {
 		}
 	
 	public static void main(String[] args) {
-		HashSet set = new HashSet();
+		HashSet01 set = new HashSet01();
 		set.add("aaa");
 		set.add("bbb");
 		set.add("ccc");
 		
 		System.out.println(set );
-		
 	}
 }

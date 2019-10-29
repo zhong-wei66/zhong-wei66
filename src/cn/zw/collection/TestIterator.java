@@ -3,6 +3,7 @@ package cn.zw.collection;
 import java.util.List;
 import java.util.Set;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 
 /**
@@ -13,7 +14,8 @@ import java.util.Iterator;
 
 public class TestIterator {
 	public static void main(String[] args) {
-		testIteratorList();
+//		testIteratorList();
+		testIteratorSet();
 		
 	}
 	
@@ -31,7 +33,19 @@ public class TestIterator {
 		
 	}
 	
-	
+	public static void testIteratorSet() {
+		Set<String> set = new HashSet<String>();
+		set.add("aa");
+		set.add("bb");
+		set.add("cc");
+		
+		// π”√iterator±È¿˙List
+		for (Iterator<String> iter=set.iterator();iter.hasNext(); ) {
+			String temp = iter.next();
+			System.out.println(temp);
+		}
+		
+	}
 	
 	
 }
