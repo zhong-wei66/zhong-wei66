@@ -1,6 +1,7 @@
 package cn.zw.wrapped;
 
 /**
+ * 【示例8-13】String和StringBuilder在频繁字符串修改时效率测试
  * 可变字符序列和不可变字符序列使用陷阱
  * @author Administrator
  *

@@ -9,7 +9,7 @@ public class TestWrappedClass {
 	public static void main(String[] args) {
 		//基本数据类型转成包装类对象
 		Integer a=new Integer(3);
-		Integer b=Integer.valueOf(30);
+		Integer b=Integer.valueOf(30);//推荐这种写法
 //		System.out.println(a);
 //		System.out.println(b);
 		
