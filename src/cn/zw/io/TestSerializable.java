@@ -17,9 +17,11 @@ import java.io.Serializable;
 class Person implements Serializable{
 	//添加序列化ID，它决定着是否能够成功反序列化
 	private static final long serialVersionUID = 1L;
+	
 	int age;
 	boolean isMan;
 	String name;
+	
 	public Person(int age, boolean isMan, String name) {
 		super();
 		this.age = age;
@@ -37,28 +39,30 @@ class Person implements Serializable{
 }
 public class TestSerializable {
 	public static void main(String[] args) {
-		FileInputStream fis = null;
-		FileOutputStream fos = null;
-		ObjectInputStream ois = null;
-		ObjectOutputStream oos = null;
+		FileInputStream fis = null;//   FileInputStream通过字节的方式读取文件，适合读取所有类型的文件(图像、视频、文本文件等)
+		FileOutputStream fos = null;//   FileOutputStream 通过字节的方式写数据到文件中，适合所有类型的文件
+		ObjectInputStream ois = null;//  ObjectInputStream代表对象输入流
+		ObjectOutputStream oos = null;// ObjectOutputStream代表对象输出流
 		try {
 			//通过ObjectOutputStream将Person对象的数据写到文件中，即序列化
 			Person person = new Person(18, true, "张三");
 			//序列化
 			fos = new FileOutputStream("d:/c.txt");
 			oos = new ObjectOutputStream(fos);
-			oos.writeObject(person);//writeObject(Object obj)方法可对参数指定的obj对象进行序列化，把得到的字节序列写到一个目标输出流中。
+			oos.writeObject(person);//   ObjectOutputStream代表对象输出流，它的writeObject(Object obj)方法可对参数指定的obj对象进行序列化，把得到的字节序列写到一个目标输出流中。
 			oos.flush();
 			
 			//反序列化
 			fis = new FileInputStream("d:/c.txt");
 			//通过ObjectInputStream将文件中二进制数据反序列化成Person对象
 			ois = new ObjectInputStream(fis);
-			Person p = (Person) ois.readObject();//readObject()方法从一个源输入流中读取字节序列，再把它们反序列化为一个对象，并将其返回。
+			Person p = (Person) ois.readObject();//ObjectInputStream代表对象输入流，它的readObject()方法从一个源输入流中读取字节序列，再把它们反序列化为一个对象，并将其返回。
 			System.out.println(p);
 			
 		} catch (Exception e) {
+			
 			e.printStackTrace();
+			
 		}finally {
 			//关闭流
 			if (oos != null) {
