@@ -9,7 +9,7 @@ public class testThread extends Thread{//自定义类继承Thread类
 	//run()方法里是线程体
 	public void run() {
 		for (int i = 0; i < 10; i++) {
-			System.out.println(this.getName()+":"+1);//getName()方法返回线程名称
+			System.out.println(this.getName()+":"+i);//getName()方法返回线程名称
 		}
 	}
 	
