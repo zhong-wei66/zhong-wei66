@@ -26,6 +26,11 @@ class ThreadYield extends Thread {
 		for (int i = 0; i < 100; i++) {
 			System.out.println(this.getName()+":"+i);
 			Thread.yield();//调用线程的yield()方法
+			try {
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 		
 	}
