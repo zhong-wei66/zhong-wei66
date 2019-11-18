@@ -1,4 +1,4 @@
-package cn.zw.io;
+package c.zw.thread;
 /**
  * 11.3.3 暂停线程执行sleep/yield
  * yield()方法：可以让正在运行的线程直接进入就绪状态，让出CPU的使用权。

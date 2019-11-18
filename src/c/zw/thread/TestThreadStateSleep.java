@@ -1,4 +1,4 @@
-package cn.zw.io;
+package c.zw.thread;
 /**
  * 11.3.3 暂停线程执行sleep/yield
  *  sleep()方法：可以让正在运行的线程进入阻塞状态，直到休眠时间满了，进入就绪状态

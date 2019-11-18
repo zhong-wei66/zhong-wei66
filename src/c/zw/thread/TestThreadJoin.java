@@ -1,8 +1,8 @@
-package cn.zw.io;
+package c.zw.thread;
 /**
  * 11.3.4 线程的联合join()
- * 
- * @author Administrator
+ * 线程A在运行期间，可以调用线程B的join()方法，让线程B和线程A联合。
+ * 这样，线程A就必须等待线程B执行完毕后才能继续执行 
  *
  */
 
@@ -24,7 +24,7 @@ class FatherThread implements Runnable {
 		son.start();
 		System.out.println("爸爸等儿子买烟回来");
 		try {
-			son.join();
+			son.join();//join方法可以使father线程必须等待son线程执行完成才继续执行
 		} catch (InterruptedException e) {//InterruptedException中断响应异常
 			e.printStackTrace();
 			System.out.println("爸爸出门去找儿子");
