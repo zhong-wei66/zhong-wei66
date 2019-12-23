@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 

@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.3.2 终止线程的典型方式
  * @author Administrator

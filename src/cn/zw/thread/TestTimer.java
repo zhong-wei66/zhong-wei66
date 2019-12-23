@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 
 import java.util.GregorianCalendar;
 import java.util.Timer;

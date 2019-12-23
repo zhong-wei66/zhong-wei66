@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.2.1 通过继承Thread类实现多线程
  * @author Administrator

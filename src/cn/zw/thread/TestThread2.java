@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.2.2 通过Runnable接口实现多线程
  * @author Administrator

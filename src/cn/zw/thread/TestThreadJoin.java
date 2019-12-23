@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.3.4 线程的联合join()
  * 线程A在运行期间，可以调用线程B的join()方法，让线程B和线程A联合。

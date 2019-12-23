@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 
 /**
  * 11.5.1 什么是线程同步

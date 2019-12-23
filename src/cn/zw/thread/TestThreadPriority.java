@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.4.2 线程的优先级
  *getPriority():获取线程的优先级数

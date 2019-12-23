@@ -1,4 +1,4 @@
-package c.zw.thread;
+package cn.zw.thread;
 /**
  * 11.5.3 死锁及解决方案
  * 【示例11-11】死锁问题演示
