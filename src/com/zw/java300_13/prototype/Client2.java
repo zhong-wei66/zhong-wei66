@@ -25,7 +25,7 @@ public class Client2 {
 		s2.setSname("多利");//可修改s2对象的值
 		System.out.println(s2);
 		System.out.println(s2.getSname());
-		System.out.println(s2.getBirthday());
+		System.out.println(s2.getBirthday());//改了s1对象的birthday的时间，不影响s2对象
 
 	}
 }
