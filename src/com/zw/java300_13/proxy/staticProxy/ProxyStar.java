@@ -1,6 +1,6 @@
 package com.zw.java300_13.proxy.staticProxy;
 /**
- * 3.定义代理类
+ * 3.定义代理类（抽象角色：经纪人）
  * @author Administrator
  *
  */

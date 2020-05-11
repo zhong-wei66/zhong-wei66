@@ -1,4 +1,4 @@
-package com.zw.java300_13.proxy.staticProxy;
+package com.zw.java300_13.proxy.dynamicProxy;
 /**
  * 2.相关代理类（真实角色：明星）
  * @author Administrator
