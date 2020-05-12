@@ -1,7 +1,5 @@
 package com.zw.java300_13.composite;
 
-
-
 public class Client {
 	public static void main(String[] args) {
 		AbstractFile f2,f3,f4,f5;
