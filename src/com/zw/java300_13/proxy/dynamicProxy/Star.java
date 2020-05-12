@@ -1,6 +1,6 @@
 package com.zw.java300_13.proxy.dynamicProxy;
 /**
- * 静态代理
+ * 动态代理
  * 1.定义接口
  * @author Administrator
  *
